@@ -1,0 +1,43 @@
+body{
+    background-color: #f1faee;
+}
+h2, h3{
+    color: navy;
+}
+button{
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+h2, h3{
+    color: #1d3557;
+}
+#signup{
+    background-color: #1d3557;
+    color: white;
+}
+span{
+    color: green;
+}
+.fun{
+    background-color: red;
+}
+.one a{
+    color: green;
+}
+footer a{
+    color: red;
+}
+h3 + button{
+    background-color: pink;
+}
+hr{
+    background-color: yellow;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3::first-letter{
+    color: green;
+    font-size: x-large;
+}

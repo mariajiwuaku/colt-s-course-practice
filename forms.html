@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h2>Hijacking Searches</h2>
+    <form action="https://www.google.com/search?q">
+        <input type="text" name="q">
+        <button>Search google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search youtube</button>
+    </form>
+    <h2>More Inputs</h2>
+    <form  action="/birds">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to the terms and conditions.</label>
+        <div>
+            <label for="xs">XS:</label>
+            <input type="radio" id="xs" value="xs" name="size">
+            <label for="s">S:</label>
+            <input type="radio" id="s" value="s" name="size">
+            <label for="m">M:</label>
+            <input type="radio" id="m" value="m" name="size">
+            
+
+        </div>
+        <p>
+            <label for="meal">Please Select a Meal</label>
+            <select name="meal" id="meal">
+                <option value="Rice">Rice</option>
+                <option value="beans">Beans</option>
+                <option value="soup">Soup</option>
+                <option value="salad">Salad</option>
+                <option value="yam">Yam</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
